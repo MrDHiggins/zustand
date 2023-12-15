@@ -2,7 +2,7 @@ import { create } from "zustand"
 import { devtools, persist } from "zustand/middleware"
 
 const store = (set) => ({
-    draggedTask: title,
+    draggedTask: null,
 
     //Add task to colum
     addTask: (title, state) => set((store) => ({
